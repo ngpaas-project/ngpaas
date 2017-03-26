@@ -42,8 +42,10 @@
 #
 # Source code
 #
-*.cpp text
-*.hpp text
+*.cpp diff=cpp
+*.hpp diff=cpp
+#
+*.swift diff=swift
 #
 *.php text
 *.css text
